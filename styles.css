@@ -1,0 +1,45 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    color: green;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color:green ;
+}
+
+.cabecalho{
+ background-color:#FFFFFF;
+ text-align: center;
+
+}
+
+.titulo{
+color: black;
+font-weight: bold;
+font-size: 32px;
+}
+
+.subtitulo{
+    color: white;
+    background-color: black;
+}
+
+.conteudo{
+    background-color:#FFFFFF;
+    color: black;
+}
+.conteudo >p{ /* puxa apenas a tag P */
+color: #E4005A;
+font-size: 42px;
+}
+
+.conteudo >p:nth-child(3){ /* puxa apenas o paragrafo Filho 3 conteudo*/
+    color: purple;
+    text-decoration: underline; /*sublinha*/
+}
+
+@media (max-width: 480px){
+    .container{
+        background-color:lightblue;
+    }
+}
